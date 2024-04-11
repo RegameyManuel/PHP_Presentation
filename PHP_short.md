@@ -1,8 +1,10 @@
+# PHP
+
 PHP, ou "PHP: Hypertext Preprocessor", est un langage de script côté serveur créé en 1994 et largement utilisé pour le développement web. Il permet de créer des pages web dynamiques qui peuvent interagir avec des bases de données et des fichiers sur le serveur. PHP est particulièrement célèbre pour sa facilité d'intégration avec le HTML et son vaste écosystème de frameworks et bibliothèques.
 
 
 
-### Points Clés de PHP Adaptés au Développement Web Côté Serveur
+## Points Clés de PHP Adaptés au Développement Web Côté Serveur
 
 1. **Intégration facile avec HTML**: PHP peut être intégré directement dans le code HTML. Cela simplifie la création de contenus web dynamiques.
 
@@ -24,10 +26,10 @@ Ce panorama de PHP illustre bien pourquoi ce langage reste un pilier du dévelop
 
 
 
-### Exemples de scripts en PHP
+## Exemples de scripts en PHP
 
 
-## 1. Balises PHP
+### 1. Balises PHP
 
 PHP peut être intégré dans du HTML en utilisant les balises PHP :
 
@@ -44,7 +46,7 @@ Vous pouvez également utiliser les balises de raccourci (si elles sont activée
 ```
 
 
-## 2. Variables et Types de Données
+### 2. Variables et Types de Données
 
 En PHP, les variables sont déclarées avec un signe dollar `$` suivi du nom de la variable. PHP est un langage à typage dynamique, donc vous n'avez pas besoin de déclarer le type de la variable.
 
@@ -59,7 +61,7 @@ En PHP, les variables sont déclarées avec un signe dollar `$` suivi du nom de 
 ```
 
 
-## 3. Structures de Contrôle
+### 3. Structures de Contrôle
 
 PHP supporte les structures de contrôle classiques comme les conditionnelles et les boucles.
 
@@ -96,7 +98,7 @@ PHP supporte les structures de contrôle classiques comme les conditionnelles et
 ```
 
 
-## 4. Fonctions
+### 4. Fonctions
 
 Les fonctions en PHP sont définies avec le mot-clé `function` :
 
@@ -111,7 +113,7 @@ Les fonctions en PHP sont définies avec le mot-clé `function` :
 ```
 
 
-## 5. Traitement d'un formulaire
+### 5. Traitement d'un formulaire
 
    ```php
    <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
@@ -134,7 +136,7 @@ Les fonctions en PHP sont définies avec le mot-clé `function` :
    Ce formulaire HTML envoie des données à la même page PHP, qui traite ensuite les données et affiche le nom saisi par l'utilisateur.
 
 
-## 6. Programmation Orientée Objet
+### 6. Programmation Orientée Objet
 
 PHP supporte la programmation orientée objet. Vous pouvez définir des classes, des propriétés et des méthodes.
 
@@ -160,7 +162,7 @@ PHP supporte la programmation orientée objet. Vous pouvez définir des classes,
 ```
 
 
-## 7. Gestion des Sessions
+### 7. Gestion des Sessions
 
 Les sessions sont utilisées pour sauvegarder des informations à travers plusieurs pages.
 
@@ -176,7 +178,7 @@ Les sessions sont utilisées pour sauvegarder des informations à travers plusie
   Ce code initialise une session et stocke une information au sein de cette session, qui peut être utilisée sur différentes pages du même site.
 
 
-## 8. Connexion à une Base de Données
+### 8. Connexion à une Base de Données
 
 Le code suivant illustre comment se connecter à une base de données MySQL avec PDO (PHP Data Objects) :
 
